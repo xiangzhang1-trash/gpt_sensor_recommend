@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Proposal Analyzer</title>
+
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- show markdown (GPT output) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+</head>
+
+<body class="container p-5">
+    <h1 class="mb-4">Paste Your Proposal</h1>
+    <div class="form-group">
+        <textarea class="form-control" id="proposalText" rows="10"></textarea>
+    </div>
+    <button class="btn btn-primary mb-3" id="suggestions-button" onclick="getSuggestions()">Get Suggestions</button>
+    <h2>Suggestions:</h2>
+    <div id="suggestions" class="border p-3"></div>
+
+    <script src="script.js"></script>
+
+    <!-- Add Bootstrap JS and dependencies-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
