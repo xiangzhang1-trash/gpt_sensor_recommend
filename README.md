@@ -1,5 +1,7 @@
 Hi. This is a sample webapp that uses GPT-4, sensor documentation and the student's project proposal to suggest which sensors to use.
 
+![CleanShot 2023-08-11 at 02 48 16@2x](https://github.com/xiangzhang1/gpt_sensor_recommend/assets/25011492/68921cb7-88a0-4d1f-97dd-660dd3041b34)
+
 # Architecture
 
 **index.html** and **script.js**: Take the project proposal text and send it to **app.js**, the Node.js backend for processing.
