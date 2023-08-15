@@ -23,4 +23,4 @@ To deploy the app, you'll need to host `app.js` somewhere that supports Node.js 
 
 Since GPT-4 costs $0.03/1k tokens, and each request sends the full sensor documentation with it (easily overloading the 8k token limit), the costs should run at around $0.25/request.
 
-To customize the sensor types and documentation, edit `sensors.json`. To change the prompts, edit `app.js`. To change the location of the Node.js serveer, edit `scripts.js`.
+To customize the sensor types and documentation, edit `sensors.json`. To change the prompts, edit `app.js`. To change the location of the Node.js server, edit `scripts.js`.
